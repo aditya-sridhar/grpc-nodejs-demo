@@ -1,4 +1,4 @@
-const PROTO_PATH = __dirname + '/proto/firstapp.proto';
+const PROTO_PATH = __dirname + '/proto/employee.proto';
 
 const grpc = require('grpc');
 const protoLoader = require('@grpc/proto-loader');

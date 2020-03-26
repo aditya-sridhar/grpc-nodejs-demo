@@ -1,7 +1,8 @@
-const PROTO_PATH = __dirname + '/proto/firstapp.proto';
+const PROTO_PATH = __dirname + '/proto/employee.proto';
 
 const grpc = require('grpc');
 const protoLoader = require('@grpc/proto-loader');
+
 let packageDefinition = protoLoader.loadSync(
     PROTO_PATH,
     {keepCase: true,
@@ -22,7 +23,7 @@ function main() {
     employeeId = 1;
   }
   client.getDetails({id: employeeId}, function(err, response) {
-    console.log('Employee Details for Employee Id:'+employeeId, response.message);
+    console.log('Employee Details for Employee Id:',employeeId,'\n' ,response.message);
   });
 }
 

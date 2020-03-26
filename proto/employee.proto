@@ -13,7 +13,7 @@ message EmployeeRequest {
 }
 
 message EmployeeResponse{
-    EmployeeDetails message = 1;
+  EmployeeDetails message = 1;
 }
 message EmployeeDetails {
   int32 id = 1;
