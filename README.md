@@ -1,6 +1,8 @@
 # Using GRPC with NodeJS
 An Example showing how to use GRPC with NodeJS
 
+Please read this [article](https://adityasridhar.com/posts/how-to-easily-use-grpc-and-protocol-buffers-with-nodejs) to make the best use of this repo
+
 ## Cloning the Code Into Local
 
 Clone the code into your local using the following command
